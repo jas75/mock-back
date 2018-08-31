@@ -1,0 +1,33 @@
+{
+  "name": "mock-back",
+  "version": "1.0.0",
+  "description": "Node mockapp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jas75/mock-back.git"
+  },
+  "keywords": [
+    "node",
+    "mock"
+  ],
+  "author": "Jason Azoulay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jas75/mock-back/issues"
+  },
+  "homepage": "https://github.com/jas75/mock-back#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "mongoose": "*"
+  }
+}
